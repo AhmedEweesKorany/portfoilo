@@ -2,8 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import { delay, motion } from 'framer-motion'
-import { FaFontAwesome,FaFontAwesomeFlag } from 'react-icons/fa'
+import {  motion } from 'framer-motion'
 import Link from 'next/link'
 import {HiDownload} from 'react-icons/hi'
 import {BsGithub, BsLinkedin} from "react-icons/bs"
@@ -44,11 +43,11 @@ export default function Intro() {
       }}
       >
       <p className='capitalize mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
-        <span className="font-bold">Hello, I'm Ahmed.</span> I'm a{" "}
-        <span className="font-bold">front-end developer with a Drive to Become a Full-Stack Developer </span> with{" "}
+        <span className="font-bold">Hello, Iam Ahmed.</span> Iam a
+        <span className="font-bold">front-end developer with a Drive to Become a Full-Stack Developer </span> with
         <span className="font-bold">almost 2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building <span className="italic">sites & apps</span>. My focus is
+        <span className="underline">React Next.js</span>.
         </p>
       </motion.div>
         <motion.div
